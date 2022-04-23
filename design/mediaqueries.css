@@ -3,11 +3,13 @@
     .menu{
         display: block;
         order: 1;
+        flex: 1;
         cursor: pointer;
         margin-left: 2em;
     }
     .navi {
         display:none ;
+        
     }
 
     .close{
@@ -24,7 +26,7 @@
         display: flex;
         width: 100%;
         max-width: 100%;
-        justify-content: start;
+        justify-content: space-around;
         gap: 20%;
         position: absolute;
         top: 3%;
@@ -43,27 +45,28 @@
        
     }
     .navigation > .logo{
-       
+       flex:2;
         order: 2;
     }
     
     .white {
         
         display: flex;
-        justify-content: start;
-        gap: 10%;
+        justify-content: space-evenly;
+        /* gap: 10%; */
         align-items: center;
         background-color: #fff;
         width: 100%;
-        height: 10%;
+        height: 15%;
        
        
     }
+  
     nav > a{
         text-decoration: none;
         color: #000;
         margin-left: 1em;
-        font-size: 1.5vw;
+        font-size: 3ch;
     }
     
     
